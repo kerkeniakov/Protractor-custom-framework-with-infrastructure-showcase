@@ -1,5 +1,5 @@
-var pageContent = require('../pageObjectModels/pageContent.js');
-var searchWidget = require('../pageObjectModels/searchWidget.js');
+const pageContent = require('../pageObjectModels/pageContent.js');
+const searchWidget = require('../pageObjectModels/searchWidget.js');
 
 describe('Excercise 2 - search widget hotkeys', function () {
     it('1. Navigate to the WebdriverIO website at ' + siteurl, function () {
