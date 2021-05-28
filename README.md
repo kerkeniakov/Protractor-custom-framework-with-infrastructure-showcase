@@ -7,7 +7,7 @@ I should have already provided you with my private allure/selenoid server creden
 If you want to, you can use your own selenium/selenoid/allure servers (local or remote) by specifying the IP's,port's and project names(for allure) in the .env file.  
 
 
-After a test/suite runs, on completion we trigger a send_results.js script which uploads all the local allure test case files to a remote allure server.  
+After a test/suite runs, on completion we trigger a send_results.js script which uploads all the local allure test result files to a remote allure server.  
 
 We embed a link of the video from the test session in the allure reports directly from the selenoid URL/server.  
 
