@@ -1,0 +1,24 @@
+{
+  "name": "genchoquickbase",
+  "version": "1.0.0",
+  "description": "quickbase excercise ",
+  "main": "conf.js",
+  "scripts": {
+    "tests:chrome": "node node_modules/protractor/bin/protractor ./conf.js --suite all --params.browser=chrome",
+    "tests:firefox": "node node_modules/protractor/bin/protractor ./conf.js --suite all --params.browser=firefox"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-commandline": "^2.13.0",
+    "dotenv": "^6.2.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-data-provider": "^2.2.0",
+    "jasmine-reporters": "^2.3.2",
+    "jasmine-spec-reporter": "^7.0.0",
+    "node-fetch": "^2.6.1",
+    "protractor": "^7.0.0",
+    "shelljs": "^0.8.4",
+    "webdriver-manager": "^12.1.7"
+  }
+}
