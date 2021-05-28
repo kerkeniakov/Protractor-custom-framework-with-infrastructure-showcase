@@ -1,8 +1,8 @@
-var using = require('jasmine-data-provider');
-var sectionListData = require('../dataProviders/sectionLists.js');
-var pageNavigation = require('../pageObjectModels/pageNavigation.js');
-var pageContent = require('../pageObjectModels/pageContent.js');
-var searchWidget = require('../pageObjectModels/searchWidget.js');
+const using = require('jasmine-data-provider');
+const sectionListData = require('../dataProviders/sectionLists.js');
+const pageNavigation = require('../pageObjectModels/pageNavigation.js');
+const pageContent = require('../pageObjectModels/pageContent.js');
+const searchWidget = require('../pageObjectModels/searchWidget.js');
 
 describe('Excercise - QuickBase - click and protocols', function () {
     it('1. Navigate to the WebdriverIO website at ' + siteurl, function () {
