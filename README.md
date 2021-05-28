@@ -26,5 +26,5 @@ You will also find a skeleton bashscript for generating an .env file for use in 
 3. npm run tests:chrome -> runs the whole test suite on chrome
  * npm run tests:firefox -> runs the whole test suite on firefox
  * for specific test cases you can use the manual command instead of the scripted one. For example:
->  node node_modules/protractor/bin/protractor ./conf.js --suite excercise --params.browser=firefox
+>  node node_modules/protractor/bin/protractor ./conf.js --suite clickAndProtocols --params.browser=firefox
 >  node node_modules/protractor/bin/protractor ./conf.js --suite searchWidget --params.browser=chrome
