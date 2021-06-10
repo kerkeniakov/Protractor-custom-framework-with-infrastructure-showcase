@@ -31,3 +31,8 @@ The test cases/suites demonstrate:
  * for specific test cases you can use the manual command instead of the scripted one. For example:
 >  node node_modules/protractor/bin/protractor ./conf.js --suite clickAndProtocols --params.browser=firefox  
 >  node node_modules/protractor/bin/protractor ./conf.js --suite searchWidget --params.browser=chrome
+
+## Infrastructure
+Refer to docker-compose.yml and pull the necessary images.  
+Configure them.  
+Populate the .env file the selenoid and allure IPs.
