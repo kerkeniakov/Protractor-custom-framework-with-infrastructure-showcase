@@ -15,10 +15,14 @@ Alternatively you can also use the "allure serve" command in the project root to
 You will also find a skeleton bashscript for generating an .env file for use in CI/CD, as well as a custom exit code(the reason for this being that npm run's default exit code is 0, thus even if tests fail, CI will mark the build as "pass" - and we do not want that.).
 
 There are 2 examples test cases for the webdriver.io website.
+The test cases/suites demonstrate:  
+-how to use Page Object Model design pattern for element locators and helper functions 
+-setup methods in conf.js as well as CLI parameterization 
+-data providers using jasmine-data-provider
+
 
 ## Installation
 1. Rename .env-example to .env file in project root 
- * I should have provided you with the .env key-values to use my own selenium/allure server via an e-mail for security reasons since I will be making this repo public until the interview.
  * You can see the .env-example for all the key-values that are required
 2. npm install  
 3. npm run tests:chrome -> runs the whole test suite on chrome
