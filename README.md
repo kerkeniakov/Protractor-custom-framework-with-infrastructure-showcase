@@ -3,6 +3,7 @@
 The framework is mostly configured to be used in conjuction with a selenoid/hub with docker images of chrome/firefox, aerokube video recorder docker image and a remote allure server. 
 
 You should use your own selenium/selenoid/allure servers (local or remote) by specifying the IP's,port's and project names(for allure) in the .env file.  
+Alternatively you can you directConnect or your own selenium webdriver ip (local or remote).  
 
 After a test/suite runs, on completion we trigger a send_results.js script which uploads all the local allure test result files to a remote allure server.  
 
