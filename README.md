@@ -33,6 +33,7 @@ The test cases/suites demonstrate:
 >  node node_modules/protractor/bin/protractor ./conf.js --suite searchWidget --params.browser=chrome
 
 ## Infrastructure
-Refer to docker-compose.yml and pull the necessary images. All you need is the docker-compose file and the browsers.json on your server.
+All you need is the docker-compose file and the browsers.json on your server.  
+Refer to docker-compose.yml and pull the necessary images.  
 Configure them.  
 Populate the .env file the selenoid and allure IPs.
