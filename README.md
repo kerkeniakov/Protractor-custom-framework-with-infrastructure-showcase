@@ -1,11 +1,7 @@
-# quickbase-excercise
-## Notes from Gencho
-The framework is mostly configured to be used in conjuction with a selenoid/hub with docker images of chrome/firefox, aerokube video recorder docker image and a remote allure server.  
+# Example of Protractor project that is integrated with remote selenoid server and Allure multi-language test report tool
+The framework is mostly configured to be used in conjuction with a selenoid/hub with docker images of chrome/firefox, aerokube video recorder docker image and a remote allure server. 
 
-I should have already provided you with my private allure/selenoid server credentials via an email by the time you read this. Those go in the .env file.  
-
-If you want to, you can use your own selenium/selenoid/allure servers (local or remote) by specifying the IP's,port's and project names(for allure) in the .env file.  
-
+You should use your own selenium/selenoid/allure servers (local or remote) by specifying the IP's,port's and project names(for allure) in the .env file.  
 
 After a test/suite runs, on completion we trigger a send_results.js script which uploads all the local allure test result files to a remote allure server.  
 
@@ -17,6 +13,8 @@ You can access this URL to view video/screenshots/step statistics and all other 
 Alternatively you can also use the "allure serve" command in the project root to run a local instance of allure report.It should also contain an external link to the test execution videos.  
 
 You will also find a skeleton bashscript for generating an .env file for use in CI/CD, as well as a custom exit code(the reason for this being that npm run's default exit code is 0, thus even if tests fail, CI will mark the build as "pass" - and we do not want that.).
+
+There are 2 examples test cases for the webdriver.io website.
 
 ## Installation
 1. Rename .env-example to .env file in project root 
