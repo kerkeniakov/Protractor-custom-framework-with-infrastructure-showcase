@@ -1,4 +1,5 @@
-# Example of Protractor project that is integrated with remote selenoid server and Allure multi-language test report tool
+# Example of a Protractor based framework that is integrated with remote selenoid server and Allure multi-language test report tool.  
+# Supports video recordings aswell as custom scripts to push results to a remote allure server.
 The framework is mostly configured to be used in conjuction with a selenoid/hub with docker images of chrome/firefox, aerokube video recorder docker image and a remote allure server. 
 
 You should use your own selenium/selenoid/allure servers (local or remote) by specifying the IP's,port's and project names(for allure) in the .env file.  
