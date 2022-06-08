@@ -1,3 +1,4 @@
+# EDIT : Protractor is now deprecated this is an old repo. I suggest you switch to https://webdriver.io/
 # Example of a Protractor based framework that is integrated with remote selenoid server and Allure multi-language test report tool.  
 # Supports video recordings aswell as custom scripts to push results to a remote allure server.
 The framework is mostly configured to be used in conjuction with a selenoid/hub with docker images of chrome/firefox, aerokube video recorder docker image and a remote allure server. 
